@@ -1,0 +1,31 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: will-humphreys
+      changes:
+        - createTable:
+            tableName: instrument_price_modifier
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    primaryKeyName: pk_instrument_price_modifier
+              - column:
+                  name: name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: multiplier
+                  type: double
+                  constraints:
+                    nullable: false
+        - createIndex:
+            tableName: instrument_price_modifier
+            indexName: idx_instrument_name
+            columns:
+              - column:
+                  name: name
