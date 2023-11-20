@@ -28,7 +28,6 @@ public class LatestValuesCalculatorFactory {
         return calculators.get(identifier);
     }
 
-
     public Collection<Calculator> getCalculators() {
         return calculators.values();
     }
