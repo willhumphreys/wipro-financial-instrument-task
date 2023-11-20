@@ -2,6 +2,9 @@ package wipro.calculation.domain;
 
 import wipro.calculation.service.CalculationService;
 
+/**
+ * A calculator for computing the mean value of a financial instrument.
+ */
 public class MeanValuesCalculator implements Calculator {
     private final InstrumentCalculationRule instrumentCalculationRule;
     private long sum;

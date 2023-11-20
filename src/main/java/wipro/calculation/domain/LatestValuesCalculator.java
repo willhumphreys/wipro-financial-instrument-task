@@ -5,6 +5,9 @@ import wipro.helpers.LexicalDateStringComparator;
 
 import java.util.TreeMap;
 
+/**
+ * A calculator for computing the sum of the latest values of a financial instrument.
+ */
 public class LatestValuesCalculator implements Calculator {
 
     private final TreeMap<String, Long> latestValuesMap;

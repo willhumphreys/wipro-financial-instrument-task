@@ -10,10 +10,11 @@ gigabytes of data) and operates within a scalable architecture.
 ## How to Run
 
 1. **Build the Project**:
-  - Navigate to the project directory.
-  - Run `mvn install` to build the project and run unit tests.
-  - A GitHub hook builds the project on every push to the main branch. The latest build can be found
-    [here](https://github.com/willhumphreys/wipro-financial-instrument-task/actions/workflows/build.yml).
+
+- Navigate to the project directory.
+- Run `mvn install` to build the project and run unit tests.
+- A GitHub hook builds the project on every push to the main branch. The latest build can be found
+  [here](https://github.com/willhumphreys/wipro-financial-instrument-task/actions/workflows/build.yml).
 
 ## Key Components
 
